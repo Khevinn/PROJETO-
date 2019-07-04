@@ -1,0 +1,145 @@
+/* Animação, Coloração do título e loop de cores */
+@keyframes h1 {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  75% {color: orange;}
+  100%{color:#b3b3b3;}
+}
+/* Titúlo do jogo e loop de cores */
+h1{
+animation: h1 4s infinite;
+font-size:80px;
+display: inline-block;
+margin-bottom: 130px;
+}
+/* Fonte usada e Diretório da fonte */
+
+@font-face  {
+  font-family: "fontepixel";
+  src: url("fontepixel.ttf");
+}
+/* Tag dos Links */     /* Usado pra tirar a Sublinhação */
+a{
+	text-decoration: none;	
+	}
+/* edição de algumas frases no "sobre" */
+p{
+	text-decoration: none;
+	color: #b3b3b3;
+
+}
+/* Corpo do programa , imagem do background e o diretório */
+body{
+	background-image: url("papel1.jpg"); 
+	font-family: "fontepixel";
+	text-align: center;
+	/*src: url("fontepixel.ttf");*/
+}
+/* Link da 1ª Opção do Menu */
+    .jogar{
+	color: #b3b3b3;
+	font-size:48px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+
+}
+/* Rotação(ao passar o mouse) da 1ª Opção do Menu */
+		.jogar:hover {
+	color: red;
+	transition: 1s;
+	transform: translate(40px) ;
+}
+
+/* Link da 2ª Opção do Menu */
+		.controles{
+  	color: #b3b3b3;
+  	font-size:45px;
+  	margin-left: 90px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+
+}
+/* Rotação(ao passar o mouse) da 2ª Opção do Menu */
+		.controles:hover {
+	color: yellow;
+	transition: 1s;
+	transform: translate(40px) ;
+}
+/* Link da 3ª Opção do Menu "Inutilizável por enquanto" */
+		.mapa{
+	color: #b3b3b3;
+	font-size:48px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+/* Rotação(ao passar o mouse) da 3ª Opção do Menu "Inutilizável por enquanto" */
+		.mapa:hover {
+	color: #00FF00;
+	transition: 1s;
+	transform: translate(40px) ;
+}
+/* Link da 4ª Opção do Menu */
+	.sobre {
+	color: #b3b3b3;
+	font-size:48px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+/* Rotação(ao passar o mouse) da 4ª Opção do Menu */
+  .sobre:hover {
+	color: orange;
+	transition: 1s;
+	transform: translate(40px) ;
+}
+    /*Créditos dentro do sobre*/
+	.nomes{
+	color: #b3b3b3;
+	font-size:18px;
+	display: inline-block;
+}
+    /*Link da 1ª opção dentro do sobre*/
+	.voltar {
+	color: #b3b3b3;
+	font-size:48px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+/* Rotação(ao passar o mouse) da 1ª Opção dentro do sobre */
+  .voltar:hover {
+	color: orange;
+	transition: 1s;
+	transform: translate(-40px) ;
+}
+ /* Link da 1ª Opção dentro de controles */
+  .voltar2 {
+	color: #b3b3b3;
+	font-size:48px;
+	margin-top: 180px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+/* Rotação(ao passar o mouse) da 1ª Opção dentro de controles */
+  .voltar2:hover {
+	color: yellow;
+	transition: 1s;
+	transform: translate(-40px) ;
+}
+ .voltar3 {
+	color: #b3b3b3;
+	font-size:48px;
+	margin-top: 437px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+/* Rotação(ao passar o mouse) da 1ª Opção dentro de controles */
+  .voltar3:hover {
+	color: red;
+	transition: 1s;
+	transform: translate(-40px) ;
+}
